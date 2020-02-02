@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import NavBar from "./components/navBar/NavBar";
 import DropDown from "./components/DropDownMenu/DropDown";
 import BackDrop from "./components/BackDrop/BackDrop";
-import { Router, Route } from "react-router";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import HomePage from "./components/Homepage/HomePage";
 import DiceGenerator from "./components/DiceGenerator/diceGenerator";
