@@ -3,12 +3,7 @@ import React, { Component } from "react";
 import NavBar from "./components/navBar/NavBar";
 import DropDown from "./components/DropDownMenu/DropDown";
 import BackDrop from "./components/BackDrop/BackDrop";
-import {
-  Router,
-  Route,
-  browserHistory,
-  IndexRoute
-} from "@version/react-router-v3";
+import { Router, Route } from "react-router";
 
 import HomePage from "./components/Homepage/HomePage";
 import DiceGenerator from "./components/DiceGenerator/diceGenerator";
@@ -41,8 +36,7 @@ class App extends Component {
         <DropDown show={this.state.dropDownOpen} />
         {backDrop}
         <main style={{ marginTop: "64px" }}>
-          <Router history={browserHistory}>
-            <IndexRoute component={HomePage} />
+          <Router>
             <Route path="Home" component={HomePage}></Route>
             <Route path="Dice_generation" component={DiceGenerator}></Route>
             <Route path="News" component={NewsFeed}></Route>
