@@ -39,9 +39,15 @@ class App extends Component {
         <main style={{ marginTop: "64px" }}>
           <Router>
             <Switch>
-              <Route exact path="/Home" component={HomePage}></Route>
-              <Route path="/Dice_generation" component={DiceGenerator}></Route>
-              <Route path="/News" component={NewsFeed}></Route>
+              <Route exact path="/Home" component={HomePage}>
+                <HomePage />
+              </Route>
+              <Route path="/Dice_generation" component={DiceGenerator}>
+                <DiceGenerator />
+              </Route>
+              <Route path="/News" component={NewsFeed}>
+                <NewsFeed />
+              </Route>
             </Switch>
           </Router>
         </main>
