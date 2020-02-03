@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import NavBar from "./components/navBar/NavBar";
 import DropDown from "./components/DropDownMenu/DropDown";
 import BackDrop from "./components/BackDrop/BackDrop";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Switch } from "react-router-dom";
 
 import HomePage from "./components/Homepage/HomePage";
