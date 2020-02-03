@@ -4,6 +4,7 @@ import NavBar from "./components/navBar/NavBar";
 import DropDown from "./components/DropDownMenu/DropDown";
 import BackDrop from "./components/BackDrop/BackDrop";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Switch } from "react-router-dom";
 
 import HomePage from "./components/Homepage/HomePage";
 import DiceGenerator from "./components/DiceGenerator/diceGenerator";
@@ -37,11 +38,11 @@ class App extends Component {
         {backDrop}
         <main style={{ marginTop: "64px" }}>
           <Router>
-            <switch>
+            <Switch>
               <Route exact path="/Home" component={HomePage}></Route>
               <Route path="/Dice_generation" component={DiceGenerator}></Route>
               <Route path="/News" component={NewsFeed}></Route>
-            </switch>
+            </Switch>
           </Router>
         </main>
       </div>
