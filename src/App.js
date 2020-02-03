@@ -37,9 +37,9 @@ class App extends Component {
         {backDrop}
         <main style={{ marginTop: "64px" }}>
           <Router>
-            <Route path="Home" component={HomePage}></Route>
-            <Route path="Dice_generation" component={DiceGenerator}></Route>
-            <Route path="News" component={NewsFeed}></Route>
+            <Route exact path="/Home" component={HomePage}></Route>
+            <Route path="/Dice_generation" component={DiceGenerator}></Route>
+            <Route path="/News" component={NewsFeed}></Route>
           </Router>
         </main>
       </div>

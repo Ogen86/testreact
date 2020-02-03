@@ -30,7 +30,6 @@ class DiceGenerator extends Component {
 
   handleRateSetting(newRate) {
     this.setState({ rate: newRate });
-    console.log(this.state);
   }
 
   handleGenerate() {
@@ -41,7 +40,6 @@ class DiceGenerator extends Component {
       if (getRandomInt(1, this.state.sides) >= this.state.rate) genRes++;
     }
     this.setState({ result: genRes });
-    console.log(this.state);
   }
 
   render() {
