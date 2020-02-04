@@ -66,7 +66,7 @@ class DiceGenerator extends Component {
           >
             Generate
           </button>
-          <h2>roll result: {this.state.result}</h2>
+          <h2>rolled successes: {this.state.result}</h2>
         </div>
       </div>
     );
