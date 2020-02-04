@@ -3,9 +3,9 @@ import React, { Component } from "react";
 import NavBar from "./components/navBar/NavBar";
 import DropDown from "./components/DropDownMenu/DropDown";
 import BackDrop from "./components/BackDrop/BackDrop";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import { Switch } from "react-router-dom";
-import { BrowserHistory } from "history";
+import { HashHistory } from "history";
 
 import HomePage from "./components/Homepage/HomePage";
 import DiceGenerator from "./components/DiceGenerator/diceGenerator";
@@ -33,14 +33,14 @@ class App extends Component {
       backDrop = <BackDrop click={this.backDropClickHandler} />;
     }
     return (
-      <Router history={BrowserHistory}>
+      <Router history={HashHistory}>
         <div style={{ height: "100%" }}>
           <NavBar dropClickHandler={this.dropDownToggleHandler} />
           <DropDown show={this.state.dropDownOpen} />
           {backDrop}
           <main style={{ marginTop: "64px" }}>
             <Switch>
-              <Route exact path="/Home" component={HomePage}></Route>
+              <Route path="/Home" component={HomePage}></Route>
               <Route path="/Dice_generation" component={DiceGenerator}></Route>
               <Route path="/News" component={NewsFeed}></Route>
             </Switch>
