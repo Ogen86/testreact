@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./DropDown.css";
 
@@ -11,10 +12,10 @@ const DropDown = props => {
     <nav className={dropDownClasses}>
       <ul>
         <li>
-          <a href="Dice_generation">dice generator</a>
+          <Link to="Dice_generation">dice generator</Link>
         </li>
         <li>
-          <a href="News">news</a>
+          <Link to="News">news</Link>
         </li>
       </ul>
     </nav>

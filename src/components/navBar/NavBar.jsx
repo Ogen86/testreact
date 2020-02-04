@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./NavBar.css";
 import DropDownToggleButton from "../DropDownMenu/DropDownToggleButton";
@@ -10,16 +11,16 @@ const NavBar = props => (
         <DropDownToggleButton click={props.dropClickHandler} />
       </div>
       <div className="NavBar_Logo">
-        <a href="Home">Logo </a>
+        <Link to="Home">Logo </Link>
       </div>
       <div className="spacer" />
       <div className="NavBar_navigation_items">
         <ul>
           <li>
-            <a href="Dice_generation">dice generation</a>
+            <Link to="Dice_generation">dice generation</Link>
           </li>
           <li>
-            <a href="News">news</a>
+            <Link to="News">news</Link>
           </li>
         </ul>
       </div>
