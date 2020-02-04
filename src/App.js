@@ -32,12 +32,12 @@ class App extends Component {
       backDrop = <BackDrop click={this.backDropClickHandler} />;
     }
     return (
-      <div style={{ height: "100%" }}>
-        <NavBar dropClickHandler={this.dropDownToggleHandler} />
-        <DropDown show={this.state.dropDownOpen} />
-        {backDrop}
-        <main style={{ marginTop: "64px" }}>
-          <Router>
+      <Router>
+        <div style={{ height: "100%" }}>
+          <NavBar dropClickHandler={this.dropDownToggleHandler} />
+          <DropDown show={this.state.dropDownOpen} />
+          {backDrop}
+          <main style={{ marginTop: "64px" }}>
             <Switch>
               <Route exact path="/Home" component={HomePage}>
                 <HomePage />
@@ -49,9 +49,9 @@ class App extends Component {
                 <NewsFeed />
               </Route>
             </Switch>
-          </Router>
-        </main>
-      </div>
+          </main>
+        </div>
+      </Router>
     );
   }
 }
