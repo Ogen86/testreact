@@ -1,7 +1,7 @@
 .DropDown {
   height: 100%;
   background: white;
-  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 0px 5px rgba(220, 232, 231, 0.5);
   position: fixed;
   top: 0;
   left: 0;
@@ -17,6 +17,7 @@
 }
 
 .DropDown ul {
+  list-style: none;
   height: 100%;
   text-decoration: none;
   display: flex;
