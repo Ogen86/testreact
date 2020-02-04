@@ -5,7 +5,7 @@ import DropDown from "./components/DropDownMenu/DropDown";
 import BackDrop from "./components/BackDrop/BackDrop";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Switch } from "react-router-dom";
-import { HashHistory } from "history";
+import { BrowserHistory } from "history";
 
 import HomePage from "./components/Homepage/HomePage";
 import DiceGenerator from "./components/DiceGenerator/diceGenerator";
@@ -33,7 +33,7 @@ class App extends Component {
       backDrop = <BackDrop click={this.backDropClickHandler} />;
     }
     return (
-      <Router history={HashHistory}>
+      <Router history={BrowserHistory}>
         <div style={{ height: "100%" }}>
           <NavBar dropClickHandler={this.dropDownToggleHandler} />
           <DropDown show={this.state.dropDownOpen} />
