@@ -29,6 +29,17 @@
   outline: none;
   margin: 2px;
 }
+
+.side-btn:active {
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  color: #6495ed;
+  border-radius: 8px;
+  outline: none;
+  margin: 2px;
+}
+
 .side-button-container {
   margin-top: 10px;
 }
