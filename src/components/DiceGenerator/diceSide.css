@@ -1,0 +1,27 @@
+.side-text {
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+  padding: 8px;
+}
+
+.side-sign {
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+  padding: 8px;
+  background: #3d4648;
+  border-radius: 24px;
+  margin: 4px;
+}
+
+.side-btn {
+  background-color: #6495ed;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  box-shadow: none;
+  outline: none;
+  margin: 2px;
+}

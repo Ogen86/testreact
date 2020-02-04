@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./successRate.css";
 
 class SuccessRate extends Component {
   state = {
@@ -13,10 +14,11 @@ class SuccessRate extends Component {
   render() {
     return (
       <React.Fragment>
-        <span className="badge badge-primary m-2">
+        <span className="successRate-text">
           the success rate of the throw :
         </span>
         <input
+          className="success-input"
           type="number"
           placeholder="please give a success rate"
           name="success rate"

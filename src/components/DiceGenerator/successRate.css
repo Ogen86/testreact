@@ -1,0 +1,12 @@
+.successRate-text {
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+  padding: 8px;
+  margin: 2px;
+}
+
+.success-input {
+  width: 100px;
+  transition: width 0.4s ease-in-out;
+}

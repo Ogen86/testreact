@@ -59,6 +59,8 @@ class DiceGenerator extends Component {
             doIncrement={this.handleIncrement.bind(this)}
             doDecrement={this.handleDecrement.bind(this)}
           />
+        </div>
+        <div>
           <SuccessRate handleChange={this.handleRateSetting.bind(this)} />
         </div>
         <div>
@@ -68,9 +70,11 @@ class DiceGenerator extends Component {
           >
             Generate
           </button>
-          <h2 className="Success_result_sign">
-            rolled successes: {this.state.result}
-          </h2>
+          <div>
+            <span className="Success_result_sign">
+              rolled successes: {this.state.result}
+            </span>
+          </div>
         </div>
       </div>
     );

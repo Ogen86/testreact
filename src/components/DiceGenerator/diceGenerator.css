@@ -15,6 +15,7 @@ body {
   border-radius: 8px;
   box-shadow: none;
   outline: none;
+  margin: 2px;
 }
 
 .Generate-button:active {
@@ -24,11 +25,13 @@ body {
   color: #6495ed;
   border-radius: 8px;
   outline: none;
+  margin: 2px;
 }
 
 .Success_result_sign {
   color: white;
   text-decoration: none;
   font-size: medium;
-  margin-top: 4px;
+  padding: 8px;
+  margin: 2px;
 }

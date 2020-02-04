@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./diceNumber.css";
 
 class DiceNumber extends Component {
   state = {
@@ -8,17 +9,17 @@ class DiceNumber extends Component {
   render() {
     return (
       <React.Fragment>
-        <span className="badge badge-primary m-2">the number of die :</span>
+        <span className="number-text">the number of die :</span>
         <button
           onClick={() => this.props.doDecrement()}
-          className="btn btn-secondary btn-sm m-1"
+          className="generic-button"
         >
           -
         </button>
-        <span className="badge badge-primary m-2"> {this.props.numbers} </span>
+        <span className="number-sign"> {this.props.numbers} </span>
         <button
           onClick={() => this.props.doIncrement()}
-          className="btn btn-secondary btn-sm m-1"
+          className="generic-button"
         >
           +
         </button>
