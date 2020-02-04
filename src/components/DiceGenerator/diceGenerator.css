@@ -1,0 +1,34 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.Generate-button {
+  background-color: #6495ed;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  box-shadow: none;
+  outline: none;
+}
+
+.Generate-button:active {
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  color: #6495ed;
+  border-radius: 8px;
+  outline: none;
+}
+
+.Success_result_sign {
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+  margin-top: 4px;
+}

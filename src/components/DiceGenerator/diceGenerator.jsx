@@ -3,6 +3,8 @@ import DiceSide from "./diceSide";
 import SuccessRate from "./successRate";
 import DiceNumber from "./diceNumber";
 
+import "./diceGenerator.css";
+
 const getRandomInt = (min, max) => {
   return Math.floor(Math.random() * max - min + 1) + min;
 };
@@ -62,11 +64,13 @@ class DiceGenerator extends Component {
         <div>
           <button
             onClick={this.handleGenerate.bind(this)}
-            className="btn btn-secondary btn-sm m-1"
+            className="Generate-button"
           >
             Generate
           </button>
-          <h2>rolled successes: {this.state.result}</h2>
+          <h2 className="Success_result_sign">
+            rolled successes: {this.state.result}
+          </h2>
         </div>
       </div>
     );
