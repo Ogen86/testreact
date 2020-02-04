@@ -6,6 +6,27 @@ body {
   flex-direction: column;
   align-content: center;
 }
+.generator-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 18px;
+}
+
+.dice-side-container {
+  padding: 10px;
+}
+.dice-number-container {
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+.success-rate-container {
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+.result-container {
+  margin-top: 4px;
+}
 
 .Generate-button {
   background-color: #6495ed;
@@ -32,6 +53,6 @@ body {
   color: white;
   text-decoration: none;
   font-size: medium;
-  padding: 8px;
+  padding: 4px;
   margin: 2px;
 }

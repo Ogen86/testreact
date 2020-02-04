@@ -46,24 +46,24 @@ class DiceGenerator extends Component {
 
   render() {
     return (
-      <div>
-        <div>
+      <div className="generator-container">
+        <div className="dice-side-container">
           <DiceSide
             sides={this.state.sides}
             doSideSet={this.handleSideSetting.bind(this)}
           />
         </div>
-        <div>
+        <div className="dice-number-container">
           <DiceNumber
             numbers={this.state.dieNumber}
             doIncrement={this.handleIncrement.bind(this)}
             doDecrement={this.handleDecrement.bind(this)}
           />
         </div>
-        <div>
+        <div className="success-rate-container">
           <SuccessRate handleChange={this.handleRateSetting.bind(this)} />
         </div>
-        <div>
+        <div className="result-container">
           <button
             onClick={this.handleGenerate.bind(this)}
             className="Generate-button"
