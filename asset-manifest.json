@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/testreact/static/css/main.bad072ae.chunk.css",
-    "main.js": "/testreact/static/js/main.37764760.chunk.js",
-    "main.js.map": "/testreact/static/js/main.37764760.chunk.js.map",
+    "main.js": "/testreact/static/js/main.88eb5bc7.chunk.js",
+    "main.js.map": "/testreact/static/js/main.88eb5bc7.chunk.js.map",
     "runtime-main.js": "/testreact/static/js/runtime-main.fac9386e.js",
     "runtime-main.js.map": "/testreact/static/js/runtime-main.fac9386e.js.map",
     "static/js/2.f14987fe.chunk.js": "/testreact/static/js/2.f14987fe.chunk.js",
     "static/js/2.f14987fe.chunk.js.map": "/testreact/static/js/2.f14987fe.chunk.js.map",
     "index.html": "/testreact/index.html",
-    "precache-manifest.27f5d491a76d9d7bde3b5188f9a44e41.js": "/testreact/precache-manifest.27f5d491a76d9d7bde3b5188f9a44e41.js",
+    "precache-manifest.bd06b35a06db74b6c88470a0cbfd321f.js": "/testreact/precache-manifest.bd06b35a06db74b6c88470a0cbfd321f.js",
     "service-worker.js": "/testreact/service-worker.js",
     "static/css/main.bad072ae.chunk.css.map": "/testreact/static/css/main.bad072ae.chunk.css.map",
     "static/js/2.f14987fe.chunk.js.LICENSE.txt": "/testreact/static/js/2.f14987fe.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.fac9386e.js",
     "static/js/2.f14987fe.chunk.js",
     "static/css/main.bad072ae.chunk.css",
-    "static/js/main.37764760.chunk.js"
+    "static/js/main.88eb5bc7.chunk.js"
   ]
 }
