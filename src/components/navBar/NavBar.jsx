@@ -11,7 +11,7 @@ const NavBar = props => (
         <DropDownToggleButton click={props.dropClickHandler} />
       </div>
       <div className="NavBar_Logo">
-        <Link to="/Home">Logo </Link>
+        <Link to="/">Logo </Link>
       </div>
       <div className="spacer" />
       <div className="NavBar_navigation_items">
