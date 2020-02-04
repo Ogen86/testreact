@@ -6,6 +6,7 @@ import BackDrop from "./components/BackDrop/BackDrop";
 import { HashRouter as Router, Route } from "react-router-dom";
 import { Switch } from "react-router-dom";
 import { HashHistory } from "history";
+import "bootstrap/dist/css/bootstrap.css";
 
 import HomePage from "./components/Homepage/HomePage";
 import DiceGenerator from "./components/DiceGenerator/diceGenerator";

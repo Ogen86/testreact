@@ -11,7 +11,7 @@ class DiceSide extends Component {
         <span className="badge badge-primary m-2">
           The simulated dice side number:
         </span>
-        <h1 className="badge badge-primary m-2">{this.props.sides}</h1>
+        <span className="badge badge-primary m-2">{this.props.sides}</span>
         <button
           onClick={() => this.sideSet(4)}
           className="btn btn-secondary btn-sm m-1"
