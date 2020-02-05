@@ -7,7 +7,7 @@ class Links extends Component {
   render() {
     return (
       <div className="links-home-container">
-        <h1 className="links-headers">Links</h1>
+        <h1 className="links-main-header">Links</h1>
         <p className="links-parags">
           {" "}
           In this section, I collected my favoured links. If you'reinterested in

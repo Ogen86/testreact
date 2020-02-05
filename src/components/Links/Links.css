@@ -1,6 +1,13 @@
 .links-home-container {
   display: flex;
   flex-direction: column;
+  height: 100%;
+}
+
+.links-main-header {
+  color: #dff2ee;
+  margin: 2px;
+  font-size: 4rem;
 }
 
 .links-headers {
@@ -20,6 +27,7 @@
 .links-link-container {
   display: flex;
   margin-bottom: 12px;
+  height: 70px;
 }
 
 .links-link-text-container {
@@ -29,11 +37,16 @@
 }
 
 .links-linkbtn {
+  flex-basis: 5%;
+  width: 70px;
+  min-width: 35px;
+  height: 30px;
+  text-align: center;
   border: 1px, solid white;
   background: none;
   color: white;
   padding: 10px, 20px;
-  font-size: 20px;
+  font-size: 1rem;
   cursor: pointer;
   margin: 10px;
   transition: 0.8s;
@@ -62,4 +75,33 @@
 .links-linkbtn:hover::before,
 .links-linkbtn:active::before {
   height: 180%;
+}
+
+@media (max-width: 769px) {
+  .links-main-header {
+    color: #dff2ee;
+    margin: 2px;
+    font-size: 1.5rem;
+  }
+
+  .links-headers {
+    color: #dff2ee;
+    margin: 2px;
+    font-size: 0.6rem;
+  }
+
+  .links-parags {
+    color: #dff2ee;
+    margin: 2px;
+    font-size: 0.6rem;
+  }
+
+  .links-note {
+    color: #dff2ee;
+    font-size: 0.3rem;
+  }
+
+  .links-linkbtn {
+    font-size: 0.6rem;
+  }
 }
