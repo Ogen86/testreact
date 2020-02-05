@@ -12,10 +12,10 @@ const DropDown = props => {
     <nav className={dropDownClasses}>
       <ul>
         <li>
-          <Link to="/Dice_generation">dice generator</Link>
+          <Link to="/Dice_generation">Dice Generator</Link>
         </li>
         <li>
-          <Link to="/News">news</Link>
+          <Link to="/Links">Links</Link>
         </li>
       </ul>
     </nav>

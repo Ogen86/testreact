@@ -20,10 +20,10 @@ const NavBar = props => (
       <div className="NavBar_navigation_items">
         <ul>
           <li>
-            <Link to="/Dice_generation">dice generation</Link>
+            <Link to="/Dice_generation">Dice Generator</Link>
           </li>
           <li>
-            <Link to="/News">news</Link>
+            <Link to="/Links">Links</Link>
           </li>
         </ul>
       </div>

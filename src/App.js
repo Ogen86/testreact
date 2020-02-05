@@ -11,7 +11,7 @@ import "./App.css";
 
 import HomePage from "./components/Homepage/HomePage";
 import DiceGenerator from "./components/DiceGenerator/diceGenerator";
-import NewsFeed from "./components/NewsFeed/NewsFeed";
+import Links from "./components/Links/Links";
 
 class App extends Component {
   state = {
@@ -44,7 +44,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={HomePage}></Route>
               <Route path="/Dice_generation" component={DiceGenerator}></Route>
-              <Route path="/News" component={NewsFeed}></Route>
+              <Route path="/Links" component={Links}></Route>
             </Switch>
           </main>
         </div>
