@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 
 import "./Links.css";
 
@@ -15,8 +14,8 @@ class Links extends Component {
           the hobby, feel free to click on them.
         </p>
         <p className="links-note">
-          These link are not for commercial purposes, I am not sponsored any of
-          them.
+          These link are not for commercial purposes, I am not sponsored by any
+          of them.
         </p>
         <div className="links-link-container">
           <button
@@ -29,7 +28,7 @@ class Links extends Component {
             {" "}
             link{" "}
           </button>
-          <div>
+          <div className="links-link-text-container">
             <h4 className="links-headers"> Warhammer community</h4>
             <p className="links-parags">
               A website for the community, who play with the Games-Workshop
@@ -48,10 +47,10 @@ class Links extends Component {
             {" "}
             link{" "}
           </button>
-          <div>
+          <div className="links-link-text-container">
             <h4 className="links-headers">Bell of Lost Souls</h4>
             <p className="links-parags">
-              Website for anyone, who is into tabletop gaming and rpg's.{" "}
+              Website for anyone, who's into tabletop gaming and rpg's.{" "}
             </p>
           </div>
         </div>
@@ -66,7 +65,7 @@ class Links extends Component {
             {" "}
             link{" "}
           </button>
-          <div>
+          <div className="links-link-text-container">
             <h4 className="links-headers">Wargame Exclusive</h4>
             <p className="links-parags">
               As the name dictates, they are making models for wargaming. They
@@ -87,7 +86,7 @@ class Links extends Component {
             {" "}
             link{" "}
           </button>
-          <div>
+          <div className="links-link-text-container">
             <h4 className="links-headers">Urbanmatz</h4>
             <p className="links-parags">
               They are producing gaming mattresses and accessories for mainly
@@ -106,7 +105,7 @@ class Links extends Component {
             {" "}
             link{" "}
           </button>
-          <div>
+          <div className="links-link-text-container">
             <h4 className="links-headers">Anvil industry</h4>
             <p className="links-parags">
               At first they were third party producers, producing "bitz" for
@@ -125,7 +124,7 @@ class Links extends Component {
             {" "}
             link{" "}
           </button>
-          <div>
+          <div className="links-link-text-container">
             <h4 className="links-headers">Dice Shop</h4>
             <p className="links-parags">
               They are selling a wide variety of dices,for nearly any games.
@@ -144,7 +143,7 @@ class Links extends Component {
             {" "}
             link{" "}
           </button>
-          <div>
+          <div className="links-link-text-container">
             <h4 className="links-headers">
               Giants in the playground - The Order of the Stick
             </h4>
