@@ -19,7 +19,16 @@ class Links extends Component {
           them.
         </p>
         <div className="links-link-container">
-          <Link to="https://www.warhammer-community.com/">Link</Link>
+          <button
+            className="links-linkbtn"
+            onClick={() => {
+              window.location.href = "https://www.warhammer-community.com/";
+              return null;
+            }}
+          >
+            {" "}
+            link{" "}
+          </button>
           <div>
             <h4 className="links-headers"> Warhammer community</h4>
             <p className="links-parags">
@@ -29,7 +38,16 @@ class Links extends Component {
           </div>
         </div>
         <div className="links-link-container">
-          <Link to="https://www.belloflostsouls.net/">Link</Link>
+          <button
+            className="links-linkbtn"
+            onClick={() => {
+              window.location.href = "https://www.belloflostsouls.net/";
+              return null;
+            }}
+          >
+            {" "}
+            link{" "}
+          </button>
           <div>
             <h4 className="links-headers">Bell of Lost Souls</h4>
             <p className="links-parags">
@@ -38,7 +56,16 @@ class Links extends Component {
           </div>
         </div>
         <div className="links-link-container">
-          <Link to="https://wargameexclusive.com/">Link</Link>
+          <button
+            className="links-linkbtn"
+            onClick={() => {
+              window.location.href = "https://wargameexclusive.com/";
+              return null;
+            }}
+          >
+            {" "}
+            link{" "}
+          </button>
           <div>
             <h4 className="links-headers">Wargame Exclusive</h4>
             <p className="links-parags">
@@ -50,7 +77,16 @@ class Links extends Component {
           </div>
         </div>
         <div className="links-link-container">
-          <Link to="https://www.urbanmatz.com/">Link</Link>
+          <button
+            className="links-linkbtn"
+            onClick={() => {
+              window.location.href = "https://www.urbanmatz.com/";
+              return null;
+            }}
+          >
+            {" "}
+            link{" "}
+          </button>
           <div>
             <h4 className="links-headers">Urbanmatz</h4>
             <p className="links-parags">
@@ -60,7 +96,16 @@ class Links extends Component {
           </div>
         </div>
         <div className="links-link-container">
-          <Link to="https://anvilindustry.co.uk/">Link</Link>
+          <button
+            className="links-linkbtn"
+            onClick={() => {
+              window.location.href = "https://anvilindustry.co.uk/";
+              return null;
+            }}
+          >
+            {" "}
+            link{" "}
+          </button>
           <div>
             <h4 className="links-headers">Anvil industry</h4>
             <p className="links-parags">
@@ -70,7 +115,16 @@ class Links extends Component {
           </div>
         </div>
         <div className="links-link-container">
-          <Link to="https://www.thediceshoponline.com/">Link</Link>
+          <button
+            className="links-linkbtn"
+            onClick={() => {
+              window.location.href = "https://www.thediceshoponline.com/";
+              return null;
+            }}
+          >
+            {" "}
+            link{" "}
+          </button>
           <div>
             <h4 className="links-headers">Dice Shop</h4>
             <p className="links-parags">
@@ -79,7 +133,17 @@ class Links extends Component {
           </div>
         </div>
         <div className="links-link-container">
-          <Link to="http://www.giantitp.com/comics/oots0001.html">Link</Link>
+          <button
+            className="links-linkbtn"
+            onClick={() => {
+              window.location.href =
+                "http://www.giantitp.com/comics/oots0001.html";
+              return null;
+            }}
+          >
+            {" "}
+            link{" "}
+          </button>
           <div>
             <h4 className="links-headers">
               Giants in the playground - The Order of the Stick
