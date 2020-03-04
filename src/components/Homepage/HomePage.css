@@ -3,6 +3,23 @@
   margin-top: 100px;
 }
 
+.parag-box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.home-parag {
+  flex: 10;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
 .spacer {
   flex: 1;
 }
@@ -103,4 +120,13 @@
 .social-icons:active {
   color: black;
   background: #69e0e0;
+}
+
+@media (max-width: 769px) {
+  .parag-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+  }
 }

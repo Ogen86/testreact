@@ -41,13 +41,17 @@ class HomePage extends Component {
           </div>
           <div className="spacer"></div>
         </div>
-        <p className="home-parag">
-          The picture hold's the personal contact's, to reveal them, hover on
-          it, or in small display, click on it. This homepage is for react code
-          testing. Only a minimalistic design, with some css code try. The page
-          was mainly a link collection for me, but feel free to visit these
-          links.
-        </p>
+        <div className="parag-box">
+          <div className="spacer"></div>
+          <p className="home-parag">
+            The picture hold's the personal contact's, to reveal them, hover on
+            it, or in small display, click on it. This homepage is for react
+            code testing. Only a minimalistic design, with some css code try.
+            The page was mainly a link collection for me, but feel free to visit
+            these links.
+          </p>
+          <div className="spacer"></div>
+        </div>
       </div>
     );
   }
